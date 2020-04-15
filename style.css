@@ -1,0 +1,897 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	color: #FFF;
+	
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+
+.head, .foot {
+	background-color: #000;
+	display: flex;	
+}
+
+
+.head {
+	height: 83px;
+}
+
+.container {
+	margin: 0 92px;
+}
+
+@media screen and (min-width: 1650px) {
+	.container {
+		margin-left: 20% ;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.container {
+		margin-left: 28%;
+	}
+}
+
+.contHeaderFotter {
+	display: flex;
+	align-items: center;
+}
+
+.headerFotter-divFirmaName {
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;	
+	
+	margin-right: 95px;
+}
+
+.headerFotter-navParagraph  {
+	margin-right: 47px;
+}
+
+.colE3B873 {
+	color:  #E3B873;
+}
+
+nav > ul {
+	display: flex;
+	list-style: none;
+	
+	font-size: 11px;
+	line-height: 15px;
+	
+	margin-right: 67px;
+}
+
+.headerFotter-navPhone {
+	font-size: 11px;
+	line-height: 15px;
+	text-align: right;
+	text-decoration-line: underline;
+	
+	margin-right: 50px;
+}
+
+.button {
+	background: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+	border: 0;
+	
+	font-style: italic;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	
+	color: #FFF;
+	
+	padding: 13px 33px;
+}
+
+.containerStartMain {
+	background-image: url('./image/hero.jpg');
+	background-size: cover;
+	height: 707px;
+	
+	position: relative;
+}
+
+.coverContStart {
+	background-color: rgb(0,0,0,.7);
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.contHeroMain {
+	padding-top: 194px;
+	width: 600px;
+	position: relative;
+	z-index: 1;
+	
+	color: #FFF;
+}
+
+.title  {
+	font-family: Yeseva One;
+	font-size: 40px;
+	line-height: 53px;
+	text-transform: uppercase;
+}
+
+.contHeroMain > p {
+	font-size: 22px;
+	line-height: 36px;
+}
+
+.contHeroMain > div {
+	display: flex;
+}
+
+
+.button2 {
+	background-color: rgb(0,0,0,0);
+	border: 1px solid #FFFFFF;
+	box-shadow: none;
+	margin-left: 20px;
+
+}
+
+.backgroundContainerCompletedProjects{
+	height: 1074px;
+	background-color: #000;
+	margin:0px;
+}
+
+.containerCompletedProjects {
+	display: flex;
+	
+	padding-top: 107px;
+}
+
+.contTxtCompletedProjects {
+	padding-top: 70px;
+	padding-right: 50px;
+}
+
+.contTxtCompletedProjects-Txt > h2 {
+	font-family: Yeseva One;
+	font-size: 27px;
+	line-height: 37px;
+	letter-spacing: -0.07em;
+	text-transform: uppercase;
+}
+
+.contTxtCompletedProjects-Txt > p {
+	font-size: 14px;
+	line-height: 27px;
+	
+	width: 442px;
+}
+
+.contTxtCompletedProjects-DataContDiv {
+	display: flex;
+}
+
+.contTxtCompletedProjects-Data_h3 {
+	font-family: Yeseva One;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.contTxtCompletedProjects-Data_p {
+	font-size: 13px;
+	line-height: 21px;
+	
+	width: 161px;
+}
+
+.contTxtCompletedProjects-Choice {
+	display: flex;
+	margin-top: 81px;
+}
+
+.contTxtCompletedProjects-Choice_paragraph {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	
+	width: 10px;
+	height: 10px;
+	
+	margin: 0 9px;
+}
+
+.leftArrow {
+	padding-right: 30px;
+}
+
+.rightArrow {
+	padding-left: 30px;
+}
+
+.Choice_paragraphActive {
+	background: #FFF;
+}
+
+
+.contImgCompletedProjects-Nav > ul{
+	list-style: none;
+	display: flex;
+	
+	font-family: Yeseva One;
+	font-size: 14px;
+	line-height: 19px;
+	text-transform: uppercase;
+
+	color: rgba(255, 255, 255, 0.3);
+	
+	padding-left: 0px;
+}
+
+.contImgCompletedProjects-Nav_Paragraph {
+	margin-right: 60px;
+}
+
+.Nav_ParagraphActive {
+	color: #E3B873;
+	
+	border-bottom: 1px solid #E3B873;
+	
+	padding-bottom: 7px;
+}
+
+.contImgCompletedProjects-Img {
+	margin-top: 45px;
+}
+
+.containerOnlineControl {
+	color: #363636;
+	margin-top: -300px;
+	text-align: center;
+}
+
+.videoImg {
+	position: relative;
+	padding-bottom: -20px;
+}
+
+.videoImg-play {
+	position: absolute;
+	
+	left: 45%;
+	top: 35%;
+}
+
+.containerOnlineControl-line {
+	margin-top: -100px;
+	padding: 0 200px;
+}
+
+.containerOnlineControl > p {
+	width: 681px;
+	margin: 0 auto;
+	margin-top: 34px;
+	
+	font-size: 18px;
+	line-height: 37px;
+	text-align: center;
+}
+
+.containerOnlineControl-inputs {	
+	display: flex;
+	
+	margin-top: 91px;
+	margin-bottom: 37px;
+	text-align: left;
+	
+	justify-content: center;
+}
+
+.input {
+	margin-right: 55px;
+	
+	border: 0;
+
+	border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+	
+	padding-bottom: 8px;
+	
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.containerInpNames {
+	font-size: 13px;
+	line-height: 21px;
+	
+	text-align: left;
+}
+
+.inpOnlineControl {
+	width: 231px;
+	
+	color: #363636;
+	
+	background-color: #FFF;
+}
+
+.InpNamesOnlineControl {
+	color: rgba(54, 54, 54, 0.5);
+	
+	transform: rotate(-0.07deg);
+}
+
+.containerTypesOfRepair {
+	text-align: center;
+	margin-top: 76px;
+}
+
+.containerTypesOfRepair-contTypes {
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 31px;
+}
+
+.containerTypesOfRepair-contTypes_Types {
+	margin-right: 30px;
+}
+
+.containerTypesOfRepair-contTypes_Types > img {
+	z-index: 1000;
+}
+
+.containerTypesOfRepair-contTypes_Types_Txt {
+	width: 330px;
+	text-align: left;
+	
+	margin: -130px auto 0;
+	
+	background: #FFFFFF;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.containerTypesOfRepair-contTypes_Types_Txt > h3 {
+	font-family: Yeseva One;
+	font-size: 18px;
+	line-height: 25px;
+
+	color: #363636;
+	
+	padding-left: 25px;
+}
+
+.containerTypesOfRepair-contTypes_Types_Txt > ul {
+	font-size: 13px;
+	line-height: 27px;
+
+	color: #959595;
+}
+
+.butBuy {
+	font-family: Yeseva One;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.containerCallTheMeasurer {
+	display: flex;
+	margin-top: 124px;
+}
+
+.containerCallTheMeasurer-Advantages {
+	background-image: url('./image/CallTheMeasurerBackground.png');
+	height: 630px;
+}
+
+.containerCallTheMeasurer-Advantages > div {
+	margin-left: 349px;
+}
+
+.containerCallTheMeasurer-Advantages_Advantages {
+	display: flex;
+}
+
+.containerCallTheMeasurer-Advantages_Advantages > div {
+	background: #E3B873;
+	border: 8px solid #FFFFFF;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+	border-radius: 30px;
+	
+	font-family: Yeseva One;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	
+	width: 41px;
+	height: 41px;
+
+}
+
+.containerCallTheMeasurer-Advantages_Advantages > div > span {
+	display: block;	
+	margin-top: 8px;
+}
+
+.containerCallTheMeasurer-Advantages_Advantages > p {
+	font-size: 14px;
+	line-height: 19px;
+
+	color: #363636;
+	
+	width: 316px;
+}
+
+.containerCallTheMeasurer-Registration {
+	margin-left: 131px;
+}
+
+.containerCallTheMeasurer-Registration_WinReg {
+	background: #131313;
+	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+	
+	width: 506px;
+	
+	padding-top: 28px;
+	padding-left: 49px;
+}
+
+.containerCallTheMeasurer-Registration_WinReg > h4 {
+	width: 297px;
+
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	
+	margin: 0 auto;
+	margin-bottom: 39px;
+}
+
+.inpCallTheMeasurer {
+	background: #131313;
+	
+	width: 408px;
+	
+	border-bottom-color: rgba(255, 255, 255, 0.15);
+	
+	margin-right: 0;
+}
+
+.InpNamesCallTheMeasurer {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.containerCallTheMeasurer-Registration_WinRegMargin {
+	margin-bottom: 48px;
+}
+
+.containerCallTheMeasurer-Registration_WinRegMarginDown {
+	margin-bottom: 16px;
+}
+
+.OnlineControlButton {
+	margin: 39px 0 27px 266px;
+	
+	font-style: normal;
+}
+
+.containerCallTheMeasurer-Registration_Pig {
+	display: flex;
+	
+	margin-top: 39px;
+}
+
+.containerCallTheMeasurer-Registration_Pig > p {
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #E3B873;
+
+	text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+	
+	width: 344px;
+}
+
+
+.containerOurClients {
+	text-align: center;
+}
+
+.containerOurClients > h2 {
+	font-family: Yeseva One;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #181818;
+}
+
+.containerOurClients > p {
+	font-size: 18px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #363636;
+	
+	width: 476px;
+	margin: 24px auto 39px;
+}
+
+.containerOurClients-contClient {
+	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+	margin-right: 54px;
+	width: 376px;
+}
+
+.containerOurClients > div, .containerOurClients-contClient_NamePhoto {
+	display: flex;
+}
+
+.containerOurClients > div {
+	justify-content: center;
+}
+
+.containerOurClients-contClient_NamePhoto {
+	margin-left: 20px; 
+	margin-top: 24px; 
+}
+
+.containerOurClients-contClient_NamePhoto > img {
+	border-radius: 50%;
+}
+
+.containerOurClients-contClient_NamePhoto > p {
+	font-family: Yeseva One;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #181818;
+	
+	width: 178px;
+}
+
+.containerOurClients-contClient > p {
+	font-size: 13px;
+	line-height: 180%;
+
+	color: #959595;
+	
+	text-align: left;
+	
+	margin-left: 20px;
+	margin-right: 32px;
+}
+
+.containerOurClients-contClient_contButtons {
+	text-align: left;
+	
+	margin-top: 63px;
+}
+
+.clientButton {
+	margin: -1.5px;
+	border-right: 1px solid #FFF;
+	
+	border-radius: 0;
+	
+	box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+	
+	font-family: Yeseva One;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+.iconAreaList {
+	margin-right: 15px;
+}
+
+
+.BackgroundPreEndMain {
+	margin: 0 -2px;
+	width: 50%;	
+}
+
+#backgroundPreEndMain2 {
+	transform: scaleX(-1);
+}
+
+.containerHaveAnyQuestions {
+	text-align: center;
+	background-image: url('./image/backgroundHaveAnyQuestions.jpg');
+	background-position: right 0% bottom 0%;
+	background-size: contain;
+
+	position: relative;
+	
+	margin-top: 50px;
+}
+
+.zIndex {
+	position: relative;
+	z-index: 1;
+}
+
+.containerHaveAnyQuestions-blackCont {
+	background-color: #000;
+	width: 883px;
+	margin: -250px auto 0;
+	
+	padding-top: 35px;
+}
+
+.containerHaveAnyQuestions-blackCont > h2 {
+	font-family: Yeseva One;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+.coverContEnd {
+	background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+}
+
+.containerHaveAnyQuestions-blackCont_contNameNum {
+	margin-top: 46px;
+	margin-bottom: 49px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.inpHaveAnyQuestions1 {
+	width: 231px;
+}
+
+.inpHaveAnyQuestions2 {
+	width: 517px;
+}
+
+.inpHaveAnyQuestions1, .inpHaveAnyQuestions2 {
+	border-bottom-color: rgba(255, 255, 255, 0.15);
+	background-color: #000;
+	color: #FFF;
+}
+
+.InpNamesHaveAnyQuestions {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.InpNamesHaveAnyQuestions2 {
+	margin-left: 17.5%;
+}
+
+.HaveAnyQuestionsBut {
+	margin-top: 50px;
+	margin-bottom: 34px;
+
+	width: 200px;
+	border-radius: 0;
+}
+
+.containerHaveAnyQuestions > p {
+	font-family: Yeseva One;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	
+	width: 589px;
+	
+	margin: 0 auto;
+	margin-top: 52px;
+}
+
+.HaveAnyQuestionsIconCont {
+	margin-top: 26px;
+}
+
+.map {
+	margin-top: 43px;
+	margin-bottom: 66px;
+}
+
+footer {
+	height: 133px;
+}
+
+.contCheckbox {
+	position: relative;
+	padding-left: 27px;
+}
+
+.contCheckbox input {
+	display: none;
+}
+
+.checkboxSpan {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	background-color: #E3B873;
+	
+	border-radius: 1px;
+}
+
+.checkboxSpan:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.contCheckbox input:checked ~ .checkboxSpan:after {
+	display: block;
+}
+
+.contCheckbox .checkboxSpan:after {
+	left: 6px;
+	top: 3px;
+	width: 4px;
+	height: 8px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.checkboxOnlineControl {
+	color: #181818;
+}
+
+.checkboxHaveAnyQuestions {
+	left: 31%;
+}
+
+.contCheckboxHaveAnyQuestions {
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 46px;
+}
+
+@media  screen and (max-width: 1410px) {
+	nav {
+		display: none;
+	}
+	
+	.contHeroMain > div {
+		flex-direction: column; 
+	}
+	
+	.butHeroMain {
+		margin-bottom: 26px;
+	}
+	
+	.button2 {
+		margin-left: 0px;
+	}
+	
+	.containerCompletedProjects {
+		flex-direction: column;
+	}
+	
+	.contImgCompletedProjects-Nav {
+		display: none;
+	}
+	
+	.backgroundContainerCompletedProjects {
+		height: auto;
+	}
+	
+	.containerOnlineControl {
+		margin-top: -2px;
+		padding-top: 52px;
+		background-color: #000;
+		color: #FFF;
+		
+		padding-bottom: 20px;
+	}
+	
+	.containerOnlineControl-inputs {
+		flex-direction: column;
+		text-align: center;
+		
+		width: 50%;
+		
+		margin: 0 auto;
+	}
+	
+	.containerOnlineControl-inputs > div {
+		margin-top: 63px;
+	}
+	
+	.InpNamesOnlineControl {
+		color: rgba(255, 255, 255, 0.5);
+		/* margin-left: 5%; */
+		
+	}
+	
+	.inpOnlineControl {
+		background-color: #000;
+		color: #FFF;
+		border-bottom: 1px solid #FFF;
+		width: 100%;
+		
+	}
+	
+	.butOnlineControl {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	
+	.containerTypesOfRepair-contTypes {
+		flex-direction: column;
+	}
+	
+	.containerTypesOfRepair-contTypes_Types {
+		margin-bottom: 59px;
+	}
+	
+	.containerCallTheMeasurer {
+		display: none;
+	}
+	
+	.containerOurClients > div {
+		flex-direction: column;
+	}
+	
+	.containerOurClients-contClient {
+		margin: 0 auto 55px;
+	}
+	
+	.containerHaveAnyQuestions {
+		background-color: #000;
+		background-image: none;
+	}
+	
+	.BackgroundPreEndMain  {
+		display: none;
+	}
+	
+	.containerHaveAnyQuestions-blackCont {
+		background-color: initial;
+		margin-top: 0;
+	}
+	
+	.containerHaveAnyQuestions-blackCont_contNameNum {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	
+	.containerHaveAnyQuestions-blackCont_contNameNum > div {
+		margin-bottom: 63px;
+	}
+	
+	.inpHaveAnyQuestions1, .inpHaveAnyQuestions2 {
+		background-color: initial;
+	}
+	
+	.inpHaveAnyQuestions1 {
+		width: 517px;
+	}
+	
+	.InpNamesHaveAnyQuestions {
+		margin-left: 17.5%;
+	}
+	
+	.map {
+		width: 70%;
+	}
+	
+	.foot {
+		display: none;
+	}
+}
