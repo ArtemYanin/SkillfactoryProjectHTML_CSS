@@ -9,11 +9,20 @@ body {
 	
 }
 
+h1, h2, h3 {
+	font-weight: 500;
+}
+
 .head, .foot {
 	background-color: #000;
 	display: flex;	
 }
 
+.titleIcon {
+	text-transform: uppercase;
+	line-height: 28px;
+	font-size: 20px;
+}
 
 .head {
 	height: 83px;
@@ -108,11 +117,15 @@ nav > ul {
 
 .contHeroMain {
 	padding-top: 194px;
-	max-width: 600px;
+	
 	position: relative;
 	z-index: 1;
 	
 	color: #FFF;
+}
+
+.contHeroMain * {
+	max-width: 600px;
 }
 
 .title  {
@@ -220,14 +233,19 @@ nav > ul {
 	font-size: 14px;
 	line-height: 19px;
 	text-transform: uppercase;
-
-	color: rgba(255, 255, 255, 0.3);
 	
 	padding-left: 0px;
+	
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .contImgCompletedProjects-Nav_Paragraph {
 	margin-right: 60px;
+}
+
+.contImgCompletedProjects-Nav_Paragraph > a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .Nav_ParagraphActive {
@@ -239,14 +257,11 @@ nav > ul {
 .contImgCompletedProjects-Img {
 	margin-top: 45px;
 	
-	/* max-width: 679px; */
-	/* max-height: 482px; */
 	width: 100%;
 	height: auto;
 }
 
 .containerOnlineControl {
-	color: #363636;
 	margin-top: -300px;
 	text-align: center;
 }
@@ -273,6 +288,33 @@ nav > ul {
 	padding: 0 200px;
 }
 
+.contIcon {
+	width: 114px;
+	margin: 0 auto;
+	display: block;
+}
+
+.contIcon:after, .contIcon:before {
+	background-image: url('./image/line.svg');
+	
+    content: " ";  
+    position: relative;  
+
+    display: block;  
+    height: 1.5px;  
+    width: 32px; 
+	
+	top: 12px;
+}
+
+.contIcon:after {
+	float: left;
+}
+
+.contIcon:before {
+	float: right;
+}
+
 .containerOnlineControl > p {
 	max-width: 681px;
 	margin: 0 auto;
@@ -281,6 +323,8 @@ nav > ul {
 	font-size: 18px;
 	line-height: 37px;
 	text-align: center;
+	
+	color: #363636;
 }
 
 .containerOnlineControl-inputs {	
@@ -330,6 +374,10 @@ nav > ul {
 .containerTypesOfRepair {
 	text-align: center;
 	margin-top: 76px;
+}
+
+.containerTypesOfRepair > h2 {
+	color: #000;
 }
 
 .containerTypesOfRepair-contTypes {
@@ -539,7 +587,7 @@ nav > ul {
 	max-width: 376px;
 }
 
-.containerOurClients > div, .containerOurClients-contClient_NamePhoto {
+.containerOurClients-MainContClient, .containerOurClients-contClient_NamePhoto {
 	display: flex;
 }
 
@@ -605,6 +653,7 @@ nav > ul {
 .BackgroundPreEndMain {
 	margin: 0 -2px;
 	max-width: 50%;	
+	height: 400px;
 }
 
 #backgroundPreEndMain2 {
