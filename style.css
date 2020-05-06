@@ -13,6 +13,10 @@ h1, h2, h3 {
 	font-weight: 500;
 }
 
+label { 
+	cursor: pointer; 
+}
+
 .head, .foot {
 	background-color: #000;
 	display: flex;	
@@ -53,6 +57,10 @@ h1, h2, h3 {
 
 .headerFotter-navParagraph  {
 	margin-right: 47px;
+}
+
+.headerFotter-navParagraph:hover {
+	color: #E3B873;
 }
 
 .colE3B873 {
@@ -241,17 +249,18 @@ nav > ul {
 
 .contImgCompletedProjects-Nav_Paragraph {
 	margin-right: 60px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 7px;
 }
 
-.contImgCompletedProjects-Nav_Paragraph > a {
+.styleA {
 	text-decoration: none;
 	color: inherit;
 }
 
-.Nav_ParagraphActive {
-	border-bottom: 1px solid #E3B873;
-	
-	padding-bottom: 7px;
+.contImgCompletedProjects-Nav_Paragraph:hover {
+	border-bottom-color: #E3B873;
+	color: #E3B873;
 }
 
 .contImgCompletedProjects-Img {
@@ -431,6 +440,8 @@ nav > ul {
 	text-transform: uppercase;
 	
 	cursor: default;
+	
+	display: inline-block
 }
 
 .typeImg {
@@ -457,6 +468,7 @@ nav > ul {
 
 .containerCallTheMeasurer-Advantages_Advantages {
 	display: flex;
+	margin-bottom: 100px;
 }
 
 .containerCallTheMeasurer-Advantages_Advantages > div {
@@ -516,7 +528,7 @@ nav > ul {
 .inpCallTheMeasurer {
 	background: #131313;
 	
-	max-width: 408px;
+	width: 408px;
 	
 	border-bottom-color: rgba(255, 255, 255, 0.15);
 	
@@ -631,6 +643,13 @@ nav > ul {
 	margin-top: 63px;
 }
 
+.containerOurClients-BackgroundBuildingImg {
+	background-image: url('./image/backgroundPreEndMain.png');
+	min-height: 500px;
+	background-size: cover;
+	opacity: 0.05;
+}
+
 .clientButton {
 	margin: -1.5px;
 	border-right: 1px solid #FFF;
@@ -643,32 +662,21 @@ nav > ul {
 	line-height: 24px;
 	
 	cursor: default;
+	
+	display: inline-block;
 }
 
 .iconAreaList {
 	margin-right: 15px;
 }
 
-
-.BackgroundPreEndMain {
-	margin: 0 -2px;
-	max-width: 50%;	
-	height: 400px;
-}
-
-#backgroundPreEndMain2 {
-	transform: scaleX(-1);
-}
-
 .containerHaveAnyQuestions {
 	text-align: center;
 	background-image: url('./image/backgroundHaveAnyQuestions.jpg');
-	background-position: right 0% bottom 0%;
+	background-position: right 0% bottom -4.5%;
 	background-size: contain;
-
+	background-repeat: no-repeat;
 	position: relative;
-	
-	margin-top: 50px;
 }
 
 .zIndex {
@@ -680,7 +688,6 @@ nav > ul {
 	background-color: #000;
 	max-width: 883px;
 	margin: -250px auto 0;
-	
 	padding-top: 35px;
 }
 
@@ -693,6 +700,7 @@ nav > ul {
 
 .coverContEnd {
 	background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+	margin-top: 250px;
 }
 
 .containerHaveAnyQuestions-blackCont_contNameNum {
@@ -907,7 +915,7 @@ footer {
 		background-image: none;
 	}
 	
-	.BackgroundPreEndMain  {
+	.containerOurClients-BackgroundBuildingImg  {
 		display: none;
 	}
 	
